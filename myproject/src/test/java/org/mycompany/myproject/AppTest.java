@@ -22,4 +22,9 @@ public class AppTest {
 		assertEquals("Hello", app.sayHello(null));
 	}
 	
+	@Test
+	public void testSayHelloWithName() {
+	assertEquals("Hello World", app.sayHello("World"));
+	}
+	
 }
