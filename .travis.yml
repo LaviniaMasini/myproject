@@ -8,4 +8,4 @@ directories:
 - $HOME/.m2
 
 script:
-- mvn -f myproject/pom.xml clean verify -Pjacoco-report coveralls:report
+- mvn -f myproject/pom.xml clean verify -Pjacoco coveralls:report
